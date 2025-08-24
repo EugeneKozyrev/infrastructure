@@ -11,7 +11,7 @@ spec:
       path: '.'
       helm:
         valueFiles:
-          - $values/simple-api/values.yaml
+          - $values/simple-api/dev/values.yaml
         ignoreMissingValueFiles: true
     - repoURL: 'https://github.com/EugeneKozyrev/helm.git'
       targetRevision: 'master'
