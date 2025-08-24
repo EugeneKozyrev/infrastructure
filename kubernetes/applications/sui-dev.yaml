@@ -2,7 +2,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: root-sui-dev
+  name: sui-dev
   namespace: argocd
 spec:
   project: default
